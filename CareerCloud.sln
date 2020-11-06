@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CareerCloud.Pocos", "CareerCloud.Pocos\CareerCloud.Pocos.csproj", "{7C8B46FF-A1D7-422F-BE3C-194DD44FD206}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CareerCloudCore.UnitTests.Assignment1", "CareerCloudCore.UnitTests.Assignment1\CareerCloudCore.UnitTests.Assignment1.csproj", "{C23E53D3-FCB4-4E82-9956-C7B4A528A84A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C8B46FF-A1D7-422F-BE3C-194DD44FD206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C8B46FF-A1D7-422F-BE3C-194DD44FD206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C8B46FF-A1D7-422F-BE3C-194DD44FD206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C8B46FF-A1D7-422F-BE3C-194DD44FD206}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C23E53D3-FCB4-4E82-9956-C7B4A528A84A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C23E53D3-FCB4-4E82-9956-C7B4A528A84A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C23E53D3-FCB4-4E82-9956-C7B4A528A84A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C23E53D3-FCB4-4E82-9956-C7B4A528A84A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43D4EB87-62A6-4FD6-822D-A4F8516C0107}
+	EndGlobalSection
+EndGlobal
