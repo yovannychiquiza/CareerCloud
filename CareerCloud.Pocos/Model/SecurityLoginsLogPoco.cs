@@ -1,10 +1,9 @@
-﻿using CareerCloud.Pocos.Model;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Model
+namespace CareerCloud.Pocos
 {
     [Table("Security_Logins_Log")]
     public partial class SecurityLoginsLogPoco : IPoco

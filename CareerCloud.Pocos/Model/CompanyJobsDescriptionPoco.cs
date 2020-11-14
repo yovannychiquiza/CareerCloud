@@ -1,10 +1,9 @@
-﻿using CareerCloud.Pocos.Model;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Model
+namespace CareerCloud.Pocos
 {
     [Table("Company_Jobs_Descriptions")]
     public partial class CompanyJobDescriptionPoco : IPoco

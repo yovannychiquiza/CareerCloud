@@ -1,5 +1,4 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Model;
 using System;
 using System.Linq;
 using System.Reflection;
@@ -18,7 +17,7 @@ namespace CareerCloudCore.UnitTests.Assignment1
         public void Init()
         {   
             // create an instance of a POCO to load the Pocos assembly
-            ApplicantEducationPoco poco = new ApplicantEducationPoco();
+            //ApplicantEducationPoco poco = new ApplicantEducationPoco();
             _types = Assembly.LoadFrom(_assemblyUnderTest).GetTypes();
         }
 
