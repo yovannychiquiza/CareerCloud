@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace CareerCloud.Pocos
 {
     [Table("System_Language_Codes")]
-    public partial class SystemLanguageCodePoco
+    public partial class SystemLanguageCodePoco : IPoco
     {
         public SystemLanguageCodePoco()
         {
@@ -19,5 +19,6 @@ namespace CareerCloud.Pocos
         public string NativeName { get; set; }
 
         public virtual ICollection<CompanyDescriptionPoco> CompanyDescriptions { get; set; }
+        public Guid Id { get ; set ; }
     }
 }

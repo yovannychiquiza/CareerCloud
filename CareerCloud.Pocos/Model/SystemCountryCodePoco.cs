@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace CareerCloud.Pocos
 {
     [Table("System_Country_Codes")]
-    public partial class SystemCountryCodePoco
+    public partial class SystemCountryCodePoco :  IPoco
     {
         public SystemCountryCodePoco()
         {
@@ -19,5 +19,6 @@ namespace CareerCloud.Pocos
 
         public virtual ICollection<ApplicantProfilePoco> ApplicantProfiles { get; set; }
         public virtual ICollection<ApplicantWorkHistoryPoco> ApplicantWorkHistory { get; set; }
+        public Guid Id { get ; set ; }
     }
 }
