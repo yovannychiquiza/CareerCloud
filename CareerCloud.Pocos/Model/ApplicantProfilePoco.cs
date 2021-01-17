@@ -14,7 +14,7 @@ namespace CareerCloud.Pocos
             ApplicantJobApplications = new HashSet<ApplicantJobApplicationPoco>();
             ApplicantResumes = new HashSet<ApplicantResumePoco>();
             ApplicantSkills = new HashSet<ApplicantSkillPoco>();
-            ApplicantWorkHistory = new HashSet<ApplicantWorkHistoryPoco>();
+            ApplicantWorkHistorys = new HashSet<ApplicantWorkHistoryPoco>();
         }
         [Key]
         public Guid Id { get; set; }
@@ -37,12 +37,12 @@ namespace CareerCloud.Pocos
         [Column("Time_Stamp")]
         public byte[] TimeStamp { get; set; }
 
-        public virtual SystemCountryCodePoco CountryCodeNavigation { get; set; }
-        public virtual SecurityLoginPoco LoginNavigation { get; set; }
+        public virtual SystemCountryCodePoco SystemCountryCode { get; set; }
+        public virtual SecurityLoginPoco SecurityLogin { get; set; }
         public virtual ICollection<ApplicantEducationPoco> ApplicantEducations { get; set; }
         public virtual ICollection<ApplicantJobApplicationPoco> ApplicantJobApplications { get; set; }
         public virtual ICollection<ApplicantResumePoco> ApplicantResumes { get; set; }
         public virtual ICollection<ApplicantSkillPoco> ApplicantSkills { get; set; }
-        public virtual ICollection<ApplicantWorkHistoryPoco> ApplicantWorkHistory { get; set; }
+        public virtual ICollection<ApplicantWorkHistoryPoco> ApplicantWorkHistorys { get; set; }
     }
 }

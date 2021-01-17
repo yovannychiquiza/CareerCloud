@@ -11,14 +11,15 @@ namespace CareerCloud.Pocos
         public SystemCountryCodePoco()
         {
             ApplicantProfiles = new HashSet<ApplicantProfilePoco>();
-            ApplicantWorkHistory = new HashSet<ApplicantWorkHistoryPoco>();
+            ApplicantWorkHistories = new HashSet<ApplicantWorkHistoryPoco>();
         }
         [Key]
         public string Code { get; set; }
         public string Name { get; set; }
 
         public virtual ICollection<ApplicantProfilePoco> ApplicantProfiles { get; set; }
-        public virtual ICollection<ApplicantWorkHistoryPoco> ApplicantWorkHistory { get; set; }
+        public virtual ICollection<ApplicantWorkHistoryPoco> ApplicantWorkHistories { get; set; }
+        [NotMapped]
         public Guid Id { get ; set ; }
     }
 }

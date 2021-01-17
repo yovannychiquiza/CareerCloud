@@ -15,7 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CareerCloudCore.UnitTests.A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CareerCloudCore.UnitTests.Assignment3", "CareerCloudCore.UnitTests.Assignment3\CareerCloudCore.UnitTests.Assignment3.csproj", "{B40FF2F0-CCAA-43F9-A6C0-DEF2D8C790F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareerCloud.BusinessLogicLayer", "CareerCloud.BusinessLogicLayer\CareerCloud.BusinessLogicLayer.csproj", "{C8CDD5F9-73A8-4AE2-AC6D-D81E54314836}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CareerCloud.BusinessLogicLayer", "CareerCloud.BusinessLogicLayer\CareerCloud.BusinessLogicLayer.csproj", "{C8CDD5F9-73A8-4AE2-AC6D-D81E54314836}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CareerCloud.EntityFrameworkDataAccess", "CareerCloud.EntityFrameworkDataAccess\CareerCloud.EntityFrameworkDataAccess.csproj", "{1E370DDF-1A7E-4127-A4B7-60C4FE828F1A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CareerCloudCore.UnitTests.Assignment4", "CareerCloudCore.UnitTests.Assignment4\CareerCloudCore.UnitTests.Assignment4.csproj", "{04F66365-1A37-4E84-B6CE-F9413753C07C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{C8CDD5F9-73A8-4AE2-AC6D-D81E54314836}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8CDD5F9-73A8-4AE2-AC6D-D81E54314836}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8CDD5F9-73A8-4AE2-AC6D-D81E54314836}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E370DDF-1A7E-4127-A4B7-60C4FE828F1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E370DDF-1A7E-4127-A4B7-60C4FE828F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E370DDF-1A7E-4127-A4B7-60C4FE828F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E370DDF-1A7E-4127-A4B7-60C4FE828F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04F66365-1A37-4E84-B6CE-F9413753C07C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04F66365-1A37-4E84-B6CE-F9413753C07C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04F66365-1A37-4E84-B6CE-F9413753C07C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04F66365-1A37-4E84-B6CE-F9413753C07C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

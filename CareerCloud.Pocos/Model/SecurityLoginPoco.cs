@@ -11,7 +11,7 @@ namespace CareerCloud.Pocos
         public SecurityLoginPoco()
         {
             ApplicantProfiles = new HashSet<ApplicantProfilePoco>();
-            SecurityLoginsLog = new HashSet<SecurityLoginsLogPoco>();
+            SecurityLoginsLogs = new HashSet<SecurityLoginsLogPoco>();
             SecurityLoginsRoles = new HashSet<SecurityLoginsRolePoco>();
         }
         [Key]
@@ -42,7 +42,7 @@ namespace CareerCloud.Pocos
         public byte[] TimeStamp { get; set; }
 
         public virtual ICollection<ApplicantProfilePoco> ApplicantProfiles { get; set; }
-        public virtual ICollection<SecurityLoginsLogPoco> SecurityLoginsLog { get; set; }
+        public virtual ICollection<SecurityLoginsLogPoco> SecurityLoginsLogs { get; set; }
         public virtual ICollection<SecurityLoginsRolePoco> SecurityLoginsRoles { get; set; }
     }
 }

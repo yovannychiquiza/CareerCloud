@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "724/OOJjupiNGy+O0ZzTqQAfeoO8IraR5wzDqFG3s/0pUf/Uu6UDC5Z0sK9TQUwkUSr8zm4WYomHTGUtmYod3w==",
+  "dgSpecHash": "+LBoFnMrU6+PNICQXGgqSj0z5+YOrzXBGsChk/eKPXpcRUS9Izo8jRfMwvQcKWDyP1NOBBYLrdTdze4bfEpjYA==",
   "success": true,
   "projectFilePath": "C:\\Users\\yovan\\source\\repos\\CareerCloud\\CareerCloud.Pocos\\CareerCloud.Pocos.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\yovan\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

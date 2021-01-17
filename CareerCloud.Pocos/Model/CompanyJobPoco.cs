@@ -13,7 +13,7 @@ namespace CareerCloud.Pocos
             ApplicantJobApplications = new HashSet<ApplicantJobApplicationPoco>();
             CompanyJobEducations = new HashSet<CompanyJobEducationPoco>();
             CompanyJobSkills = new HashSet<CompanyJobSkillPoco>();
-            CompanyJobsDescriptions = new HashSet<CompanyJobDescriptionPoco>();
+            CompanyJobDescriptions = new HashSet<CompanyJobDescriptionPoco>();
         }
 
         [Key]
@@ -28,10 +28,10 @@ namespace CareerCloud.Pocos
         [Column("Time_Stamp")]
         public byte[] TimeStamp { get; set; }
 
-        public virtual CompanyProfilePoco CompanyNavigation { get; set; }
+        public virtual CompanyProfilePoco CompanyProfile { get; set; }
         public virtual ICollection<ApplicantJobApplicationPoco> ApplicantJobApplications { get; set; }
         public virtual ICollection<CompanyJobEducationPoco> CompanyJobEducations { get; set; }
         public virtual ICollection<CompanyJobSkillPoco> CompanyJobSkills { get; set; }
-        public virtual ICollection<CompanyJobDescriptionPoco> CompanyJobsDescriptions { get; set; }
+        public virtual ICollection<CompanyJobDescriptionPoco> CompanyJobDescriptions { get; set; }
     }
 }
