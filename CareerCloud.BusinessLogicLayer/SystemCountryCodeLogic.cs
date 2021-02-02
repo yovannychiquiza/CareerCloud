@@ -44,5 +44,9 @@ namespace CareerCloud.BusinessLogicLayer
                 throw new AggregateException(exceptions);
             }
         }
+        public SystemCountryCodePoco Get(string id)
+        {
+            return _repository.GetSingle(c => c.Code == id);
+        }
     }
 }
