@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Services\Greeter2Service.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Protos\ApplicantJobApplicationService.proto" />
+    <None Remove="Protos\ApplicantProfileSerrvice.proto" />
+    <None Remove="Protos\CompanyDescriptionService.proto" />
+    <None Remove="Protos\CompanyJobEducationService.proto" />
+    <None Remove="Protos\CompanyJobService.proto" />
+    <None Remove="Protos\greet2.proto" />
+    <None Remove="Protos\SecurityLoginService.proto" />
+    <None Remove="Protos\SecurityLoginsLogService.proto" />
+    <None Remove="Protos\SystemLanguageCodeService.proto" />
+  </ItemGroup>
+  <ItemGroup>
+    <Protobuf Include="Protos\ApplicantEducationService.proto" GrpcServices="Server" />
+    <Protobuf Include="Protos\ApplicantJobApplicationService.proto" GrpcServices="Server" />
+    <Protobuf Include="Protos\ApplicantProfileSerrvice.proto" GrpcServices="Server" />
+    <Protobuf Include="Protos\CompanyDescriptionService.proto" GrpcServices="Server" />
+    <Protobuf Include="Protos\CompanyJobEducationService.proto" GrpcServices="Server" />
+    <Protobuf Include="Protos\CompanyJobService.proto" GrpcServices="Server" />
+    <Protobuf Include="Protos\SecurityLoginService.proto" GrpcServices="Server" />
+    <Protobuf Include="Protos\SecurityLoginsLogService.proto" GrpcServices="Server" />
+    <Protobuf Include="Protos\SystemLanguageCodeService.proto" GrpcServices="Server" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Grpc.AspNetCore" Version="2.34.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CareerCloud.BusinessLogicLayer\CareerCloud.BusinessLogicLayer.csproj" />
+    <ProjectReference Include="..\CareerCloud.EntityFrameworkDataAccess\CareerCloud.EntityFrameworkDataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
